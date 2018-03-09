@@ -1,0 +1,411 @@
+.birds-wrap {
+  background:#fff;
+  #header {
+    .logo {
+      a {
+        background-image:url('../img/ct-logo-gray.jpg');
+        background-size:300px 43px;
+        height:43px;
+        width:300px;
+        @include retina {
+          background-image:url('../img/ct-logo-gray-2x.jpg');
+        }
+      }
+    }
+    .tagline {
+      display:none;
+      color:$darkgray;
+    }
+  }
+  #hamburger {
+    color:$darkgray;
+    &:hover {
+      background-color:$birdBlue;
+      color:#fff;
+    }
+  }
+  #main-nav {
+    @include mobile {
+      padding:5px 0 0;
+    }
+    ul {
+      @include mobile {
+        background-color:#fff;
+        border-bottom:2px solid $birdBlue;
+      }
+      li {
+        a {
+          color:$medgray;
+          font-size:20px;
+          padding:0 5px;
+          @include mobile {
+            font-size:28px;
+            padding:5px;
+          }
+          &:hover,
+          &:focus {
+            color:$birdRed;
+          }
+        }
+        &.active {
+          a {
+            color:$birdBlue;
+            &:hover,
+            &:focus {
+              color:$birdRed;
+            }
+          }
+        }
+      }
+    }
+  }
+  #main {
+    max-width:none;
+    padding:0;
+    width:auto;
+  }
+  .content {
+    max-width:none;
+    padding:10px 0 0;
+    width:auto;
+    h1 {
+      @include garamond;
+      font-size:40px;
+      font-weight:bold;
+      letter-spacing:0.025em;
+      line-height:1;
+      margin:20px 0 10px;
+      text-transform: uppercase;
+      @include mobile {
+        font-size:28px;
+        letter-spacing:0.015em;
+        margin:15px 0 5px;
+      }
+      @include under400 {
+        font-size:22px;
+        letter-spacing:normal;
+      }
+      span {
+        @include serif;
+        font-size:32px;
+        font-style:italic;
+        font-weight:bold;
+        letter-spacing:normal;
+        padding-right:5px;
+        text-transform: lowercase;
+        @include mobile {
+          font-size:24px;
+        }
+        @include under400 {
+          font-size:20px;
+          padding-right:3px;
+        }
+      }
+    }
+    .page-subtitle {
+      @include garamond;
+      font-size:24px;
+      font-weight:bold;
+      letter-spacing: normal;
+      line-height:1;
+      margin:0 0 20px;
+      text-align:center;
+      text-transform: none;
+      @include mobile {
+        margin-bottom:15px;
+      }
+      @include under400 {
+        font-size:20px;
+        margin-bottom:12px;
+      }
+    }
+    .bird-hero {
+      background-color:$birdLiteBlue;
+      margin-bottom:20px;
+      padding:20px;
+      position:relative;
+      @include under400 {
+        padding:15px;
+      }
+      .title-wrap {
+        background-color:#fff;
+        border:4px double #000;
+        max-width:800px;
+        margin:0 auto;
+      }
+      img {
+        border-top:1px solid #000;
+        display:block;
+        max-width:100%;
+      }
+      .bird-intro {
+        margin:20px auto 0;
+        max-width:500px;
+        padding:0;
+        width:100%;
+      }
+      .intro-text {
+        font-size:16px;
+        line-height:21px;
+        p {
+          margin:0 0 20px;
+        }
+      }
+    }
+    .gallery-page-head {
+      padding:0 0 20px;
+      h1 {
+        &:after {
+          border-top:1px solid #000;
+          content:'';
+          display:block;
+          margin:10px auto 0;
+          width:30px;
+          @include mobile {
+            margin-top:5px;
+          }
+        }
+      }
+    }
+  }
+  .bird-btns {
+    padding:20px 0;
+    text-align:center;
+    a {
+      @include sans;
+      background-color:$birdBlue;
+      color:#fff;
+      display:inline-block;
+      font-size:16px;
+      font-weight:bold;
+      line-height:1;
+      margin-left:10px;
+      padding:10px;
+      &:hover,
+      &:focus {
+        background-color:$medgray;
+        text-decoration: none;
+      }
+      @include under400 {
+        background-color:transparent;
+        border-left:2px solid $medgray;
+        color:$birdBlue;
+        font-size:14px;
+        margin:0;
+        padding:5px 5px 5px 10px;
+        &:hover,
+        &:focus {
+          background-color:transparent;
+          color:$medgray;
+        }
+        &:last-child {
+          padding-right:0;
+        }
+      }
+      &.buy-book {
+        background-color:$red;
+        margin-left:0;
+        &:hover,
+        &:focus {
+          background-color:$medgray;
+        }
+        @include under400 {
+          background-color:transparent;
+          border-left:0;
+          color:$red;
+          padding-left:0;
+          &:hover,
+          &:focus {
+            background-color:transparent;
+            color:$medgray;
+          }
+        }
+      }
+    }
+  }
+  .bird-container {
+    margin:0 auto;
+    max-width:800px;
+    &.bird-text-page {
+      p {
+        font-size:16px;
+        line-height:24px;
+        margin:10px auto;
+        max-width:540px;
+        padding:0 20px;
+      }
+      img {
+        display:block;
+        margin:20px auto;
+        max-width:100%;
+      }
+      .bird-btns {
+        margin-bottom:20px;
+      }
+    }
+  }
+  .gallery {
+    ul.gallery-wrap {
+      li.img-li {
+        background-color:transparent;
+        padding:0;
+        a {
+          background-color:$eee;
+          color:$darkgray;
+          padding:5px;
+          img {
+            height:auto;
+            max-width:100%;
+            margin:0;
+            width:50%;
+            @include under500 {
+              float:none;
+              width:100%;
+            }
+          }
+          &:hover, 
+          &:focus {
+            background-color:$birdBlue;
+            text-decoration: none;
+            h2,
+            .subtitle {
+              color:#fff;
+            }
+            h2:after {
+              border-top-color:#fff;
+            }
+          }
+        }
+        .info {
+          float:left;
+          padding:20px 20px 0;
+          text-align:center;
+          width:50%;
+          @include mobile {
+            padding:10px 10px 0;
+          }
+          @include under500 {
+            float:none;
+            padding:10px;
+            width:auto;
+          }
+          h2 {
+            @include garamond;
+            font-size:24px;
+            font-weight:bold;
+            padding:0 0 5px;
+            text-transform:uppercase;
+            @include mobile {
+              font-size:20px;
+            }
+            &:after {
+              border-top:1px solid #222;
+              content:'';
+              display:block;
+              margin:5px auto 0;
+              width:30px;
+            }
+          }
+          .subtitle {
+            @include garamond;
+            font-size:20px;
+            font-weight:bold;
+            @include mobile {
+              font-size:16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .gallery-page {
+    .img-inpage {
+      border-top:none;
+      margin:0 auto;
+      &.fixed-lightbox {
+        background-color:#fff;
+        img {
+          max-height:100%;
+          max-width:100%;
+          padding-top:40px;
+        }
+        &:after {
+          display:block;
+        }
+      }
+    }
+    .img-info {
+      padding:20px 0;
+    }
+    .img-desc {
+      float:none;
+      padding:0;
+      width:auto;
+      @include mobile {
+        padding:0 20px;
+      }
+    }
+    h2 {
+      @include garamond;
+      background:transparent;
+      color:$darkgray;
+      font-size:32px;
+      font-weight:bold;
+      line-height:1;
+      padding:0 0 5px;
+      @include mobile {
+        font-size:24px;
+      }
+    }
+    .latin {
+      @include serif;
+      color:$medgray;
+      font-size:18px;
+      font-style:italic;
+      line-height:1;
+      padding-bottom:15px;
+      text-align:center;
+    }
+    .location {
+      @include garamond;
+      font-size:18px;
+      font-weight:bold;
+      line-height:22px;
+      text-align:center;
+    }
+    .date {
+      @include garamond;
+      font-size:18px;
+      font-weight:normal;
+      line-height:1;
+      margin:0 0 15px;
+      text-align:center;
+    }
+    .description {
+      margin:0 auto;
+      max-width:500px;
+      padding:0 0 20px;
+    }
+    .bird-btns {
+      padding:0 0 40px;
+      text-align:center;
+      @include under500 {
+        padding:0 0 20px;
+      }
+      a {
+        @include sans;
+        background-color: $birdBlue;
+        color:#fff;
+        display:inline-block;
+        font-weight:bold;
+        line-height:1;
+        padding:10px 20px;
+        &:hover,
+        &:focus {
+          background-color:$birdRed;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

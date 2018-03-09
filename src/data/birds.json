@@ -1,0 +1,32 @@
+{
+  "page-name": "Birds of Chicagoland",
+  "bird-hero": "peregrine-falcon_herocrop",
+  "bird-hero-alt": "Peregrine Falcon hero image",
+  "categories": [
+    {
+      "category": "Birds of Prey",
+      "subtitle": "Falcons, Hawks, and Owls",
+      "slug": "birdsofprey"
+    },
+    {
+      "category": "Water Birds",
+      "subtitle": "Cormorants, Ducks, and Herons",
+      "slug": "waterbirds"
+    },
+    {
+      "category": "Songbirds",
+      "subtitle": "Colorful, Melodious, and Small",
+      "slug": "songbirds"
+    },
+    {
+      "category": "Most Common",
+      "subtitle": "Chicago's Familiar Friends",
+      "slug": "mostcommon"
+    },
+    {
+      "category": "Rare",
+      "subtitle": "Special and Elusive",
+      "slug": "rare"
+    }
+  ]
+}

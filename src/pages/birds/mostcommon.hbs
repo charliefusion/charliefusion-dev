@@ -1,0 +1,21 @@
+---
+modified:
+  title: "Most Common"
+  subtitle: "Chicago's Familiar Friends"
+  class: birds
+---
+{{> header}}
+
+<div class="bird-container">
+  <div class="gallery-page-head">
+    <h1>{{modified.title}}</h1>
+    <div class="page-subtitle">{{modified.subtitle}}</div>
+    {{> bird-btns}}
+  </div>
+
+  {{#mostcommon}}
+  {{> bird-gallery}}
+  {{/mostcommon}}
+</div>
+
+{{> footer}}

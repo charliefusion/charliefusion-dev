@@ -1,0 +1,24 @@
+{
+  "featured-row": {
+    "items": [
+      {
+        "type": "Art",
+        "workTitle": "A Mexican Vaquero (Study)",
+        "url": "gallery/mexicanvaquero.html",
+        "imgSrc": "grid/thumbs/mexicanvaquero-250"
+      },
+      {
+        "type": "Book",
+        "workTitle": "Birds of Chicagoland",
+        "url": "birds/",
+        "imgSrc": "grid/thumbs/birds-250"
+      },
+      {
+        "type": "Code",
+        "workTitle": "F1 Vue.js App",
+        "url": "code/work/vuef1/",
+        "imgSrc": "code/vuef1"
+      }
+    ]
+  }  
+}

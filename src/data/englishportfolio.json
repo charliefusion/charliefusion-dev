@@ -1,0 +1,82 @@
+{
+  "date": "Feb 17-19, 2008",
+  "medium": "35mm & Polaroid Film Photography",
+  "folder": "gallery-englishportfolio",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "Liverpool Cathedral",
+        "imgFile": "liverpool-01",
+        "location": "Liverpool, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 17, 2008"
+      },
+      {
+        "imgTitle": "Liverpool Cathedral Polaroid",
+        "imgFile": "liverpool-02",
+        "location": "Liverpool, UK",
+        "camera": "Polaroid Sun 600",
+        "date": "February 17, 2008"
+      },
+      {
+        "imgTitle": "Liverpool 'Do Your Like Your Neighbours?'",
+        "imgFile": "liverpool-03",
+        "location": "Liverpool, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 17, 2008"
+      },
+      {
+        "imgTitle": "High Bradfield St. Nicholas Cemetery",
+        "imgFile": "bradfield-01",
+        "location": "High Bradfield, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "High Bradfield Church St. Nicholas",
+        "imgFile": "bradfield-02",
+        "location": "High Bradfield, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "High Bradfield Hills",
+        "imgFile": "bradfield-03",
+        "location": "High Bradfield, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "High Bradfield Hills Polaroid",
+        "imgFile": "bradfield-04",
+        "location": "High Bradfield, UK",
+        "camera": "Polaroid Sun 600",
+        "date": "February 18, 2008"
+      },
+      {
+        "imgTitle": "Birmingham Pigeons in a Fountain",
+        "imgFile": "birmingham-01",
+        "location": "Birmingham, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 19, 2008"
+      },
+      {
+        "imgTitle": "Birmingham's Electric Cinema",
+        "imgFile": "birmingham-02",
+        "location": "Birmingham, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 19, 2008"
+      },
+      {
+        "imgTitle": "Birmingham Old Turn Junction",
+        "imgFile": "birmingham-03",
+        "location": "Birmingham, UK",
+        "camera": "Canon RebelX SLR, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "February 19, 2008"
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "englishportfolio"
+  }
+}

@@ -1,0 +1,11 @@
+{{#filters}}
+<form id="gallery-filter">
+  <label for="filters">Filter by category</label>
+  <select class="filters" id="filters">
+    <option value="all" selected="selected">All</option>
+    {{#each filter}}
+    <option value="{{val}}">{{name}}</option>
+    {{/each}}
+  </select>
+</form>
+{{/filters}}

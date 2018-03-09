@@ -1,0 +1,117 @@
+{
+  "date": "June 12-17, 2011",
+  "medium": "Film & Digital Photography",
+  "folder": "gallery-openrange",
+  "gallery-page": {
+    "works": [
+      {
+        "imgTitle": "Monument Valley, Saddleback Mesa (digital)",
+        "imgFile": "monumentvalley-01",
+        "location": "Monument Valley, AZ",
+        "camera": "Panasonic Lumix GF1",
+        "date": "June 14, 2011"
+      },
+      {
+        "imgTitle": "Monument Valley, skull seen in rock (35mm)",
+        "imgFile": "monumentvalley-02",
+        "location": "Monument Valley, AZ",
+        "camera": "Canon RebelX, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "June 14, 2011"
+      },
+      {
+        "imgTitle": "Monument Valley, from distance (Polaroid)",
+        "imgFile": "monumentvalley-03",
+        "location": "Monument Valley, AZ",
+        "camera": "Polaroid Sun 600",
+        "date": "June 14, 2011"
+      },
+      {
+        "imgTitle": "Monument Valley, Mitten Buttes (35mm)",
+        "imgFile": "monumentvalley-04",
+        "location": "Monument Valley, AZ",
+        "camera": "Canon RebelX, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "June 14, 2011"
+      },
+      {
+        "imgTitle": "Lake Powell, kayaking (digital)",
+        "imgFile": "lakepowell-01",
+        "location": "Lake Powell, AZ",
+        "camera": "Panasonic Lumix GF1",
+        "date": "June 12, 2011"
+      },
+      {
+        "imgTitle": "Lee's Ferry, Colorado River (iPhone)",
+        "imgFile": "leesferry-01",
+        "location": "Lee's Ferry, Marble Canyon, AZ",
+        "camera": "Apple iPhone 4",
+        "date": "June 13, 2011"
+      },
+      {
+        "imgTitle": "Navajo Bridge, Colorado River (35mm)",
+        "imgFile": "navajobridge-01",
+        "location": "Navajo Bridge, AZ",
+        "camera": "Canon RebelX, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "June 13, 2011"
+      },
+      {
+        "imgTitle": "Navajo National Monument (digital HDR)",
+        "imgFile": "navajomonument-01",
+        "location": "Navajo National Monument, Shonto, AZ",
+        "camera": "Panasonic Lumix GF1, HDR Imaging",
+        "date": "June 14, 2011"
+      },
+      {
+        "imgTitle": "Navajo National Monument, cliff dwellings (digital HDR)",
+        "imgFile": "navajomonument-02",
+        "location": "Navajo National Monument, Shonto, AZ",
+        "camera": "Panasonic Lumix GF1, HDR Imaging",
+        "date": "June 14, 2011"
+      },
+      {
+        "imgTitle": "On the Road in Arizona (35mm)",
+        "imgFile": "ontheroad-01",
+        "location": "Arizona",
+        "camera": "Canon RebelX, 50mm lens, Ilford Delta 100 35mm film",
+        "date": "June 13, 2011"
+      },
+      {
+        "imgTitle": "On the Road in Arizona (Polaroid)",
+        "imgFile": "ontheroad-02",
+        "location": "Arizona",
+        "camera": "Polaroid Sun 600",
+        "date": "June 13, 2011"
+      },
+      {
+        "imgTitle": "Grand Canyon National Park (digital HDR)",
+        "imgFile": "grandcanyon-01",
+        "location": "Grand Canyon National Park, AZ",
+        "camera": "Panasonic Lumix GF1, HDR Imaging",
+        "date": "June 15, 2011"
+      },
+      {
+        "imgTitle": "Grand Canyon National Park (iPhone)",
+        "imgFile": "grandcanyon-02",
+        "location": "Grand Canyon National Park, AZ",
+        "camera": "Apple iPhone 4",
+        "date": "June 15, 2011"
+      },
+      {
+        "imgTitle": "Joshua Tree National Park (digital)",
+        "imgFile": "joshuatree-01",
+        "location": "Joshua Tree National Park, CA",
+        "camera": "Panasonic Lumix GF1",
+        "date": "June 17, 2011"
+      },
+      {
+        "imgTitle": "Joshua Tree National Park (digital)",
+        "imgFile": "joshuatree-02",
+        "location": "Joshua Tree National Park, CA",
+        "camera": "Panasonic Lumix GF1",
+        "date": "June 17, 2011"
+      }
+    ]
+  },
+  "pagenav": {
+    "id": "openrange"
+  }
+}

@@ -1,0 +1,34 @@
+{{#bird-gallery}}
+<div class="bird-gallery">
+
+  <div class="gallery-page">
+
+  {{#each works}}
+    <section class="img-section">
+
+      <div class="img-inpage">
+        <img src="/img/birds/{{imgFile}}.jpg" alt="{{imgTitle}}">
+      </div>
+
+      <div class="img-info">
+        <div class="img-desc">
+          <h2>{{bird}}</h2>
+          <div class="latin">({{latin}})</div>
+          {{#if location}}<div class="location">{{location}}</div>{{/if}}
+          <div class="date">{{date}}</div>
+          <p class="description">{{{description}}}</p>
+          {{#if printUrl}}
+          <div class="bird-btns">
+            <a href="{{printUrl}}" target="_blank" title="Opens Society6.com in a new window">Buy a Print</a>
+          </div>
+          {{/if}}
+        </div>
+      </div>
+
+    </section>
+  {{/each}}
+
+  </div>
+
+</div>
+{{/bird-gallery}}

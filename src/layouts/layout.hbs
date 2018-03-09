@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>{{#if modified.title}}{{modified.title}} - {{/if}}charlie fusion</title>
+	<link rel="icon" href="/img/favicon.ico">
+	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/css/ie.css"><![endif]-->
+ 	{{#is modified.class 'birds'}}
+ 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald|Cormorant+Garamond:400,700">
+ 	{{else}}
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
+  	{{/is}}
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body{{#is modified.class 'birds'}} class="birds-wrap"{{/is}}>
+
+	{{> body}}
+
+  <script src="/js/main.js"></script>
+
+</body>
+</html>

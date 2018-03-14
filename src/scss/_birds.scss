@@ -3,12 +3,12 @@
   #header {
     .logo {
       a {
-        background-image:url('../img/ct-logo-gray.jpg');
-        background-size:300px 43px;
+        background-image:url('../img/charlie-logo-gray.jpg');
+        background-size:164px 43px;
         height:43px;
-        width:300px;
+        width:164px;
         @include retina {
-          background-image:url('../img/ct-logo-gray-2x.jpg');
+          background-image:url('../img/charlie-logo-gray-2x.jpg');
         }
       }
     }

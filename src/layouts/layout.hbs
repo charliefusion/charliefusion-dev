@@ -3,7 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>{{#if modified.title}}{{modified.title}} - {{/if}}charlie fusion</title>
+	<title>
+		{{#if modified.title}}
+			{{modified.title}} - Charlie
+		{{else}}
+			Charlie - Artist &amp; Software Engineer from Chicago
+		{{/if}}
+	</title>
 	<link rel="icon" href="/img/favicon.ico">
 	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/css/ie.css"><![endif]-->
  	{{#is modified.class 'birds'}}

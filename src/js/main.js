@@ -70,7 +70,14 @@ charlie.init = function() {
 					el.style.display = 'none';
 				}
 			});
+			if (window.location.search && window.location.search.substring(1).split('=')[1] !== value) {
+				window.location.search = '?filter=' + value;
+			}
 		});
+		if (window.location.search) {
+			var searchValue = window.location.search.substring(1).split('=')[1];
+			select.value = searchValue;
+		}
 		var event = new Event('change');
 		select.dispatchEvent(event);
 	}

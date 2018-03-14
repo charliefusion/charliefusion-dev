@@ -33,17 +33,17 @@
 #charlie-code-header .logo a {
   display: block;
   margin: 0 auto;
-  background-image: url("../../img/ct-logo-gray.jpg");
-  background-size: 300px 43px;
+  background-image: url("../../img/charlie-logo-gray.jpg");
+  background-size: 164px 43px;
   height: 43px;
-  width: 300px;
+  width: 164px;
 }
 #charlie-code-header .logo a:hover, #charlie-code-header .logo a:focus {
   text-decoration: none;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #charlie-code-header .logo a {
-    background-image: url("../../img/ct-logo-gray-2x.jpg");
+    background-image: url("../../img/charlie-logo-gray-2x.jpg");
   }
 }
 

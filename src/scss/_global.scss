@@ -24,22 +24,22 @@ body {
 		text-indent:-9999px;
 		a {
 			@include nounderline;
-			background:url('../img/ct-logo-02.png') no-repeat scroll 0 0 transparent;
+			background:url('../img/charlie-logo-01.png') no-repeat scroll 0 0 transparent;
 			display:block;
 			height:72px;
 			margin:0 auto;
-			width:500px;
+			width:274px;
 			@include retina {
-				background-image:url('../img/ct-logo-02-2x.png');
-				background-size:500px 72px;
+				background-image:url('../img/charlie-logo-01-2x.png');
+				background-size:274px 72px;
 			}
 			@include mobile {
-				background-image:url('../img/ct-logo-02-mobile.png');
-				background-size:300px 43px;
+				background-image:url('../img/charlie-logo-01-mobile.png');
+				background-size:164px 43px;
 				height:43px;
-				width:300px;
+				width:164px;
 				@include retina {
-					background-image:url('../img/ct-logo-02-mobile2x.png');
+					background-image:url('../img/charlie-logo-01-mobile2x.png');
 				}
 			}
 		}

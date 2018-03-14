@@ -8,7 +8,7 @@
       "subtitle": "Vue.js with Routing, Bootstrap, and Webpack",
       "description": "Formula One driver, team, and race data application built with Vue.js v2.4, Webpack v2.2, Bootstrap v3.2, and APIs from <a href=\"http://ergast.com/mrd\" target=\"_blank\">Ergast.com</a>.",
       "year": "2017",
-      "github": "https://github.com/charliethomason/f1-vuejs-webpack"
+      "github": "https://github.com/charliefusion/f1-vuejs-webpack"
     },
     {
       "slug": "quiz",
@@ -16,7 +16,7 @@
       "subtitle": "Interactive 7-Step JS Quiz",
       "description": "Multi-step quiz widget with interactive controls and real scoring. Originally built as an Adobe AEM component for a financial client.",
       "year": "2016",
-      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/build/code/work/quiz"
+      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/src/pages/code/work/quiz"
     },
     {
       "slug": "customselect",
@@ -24,7 +24,7 @@
       "subtitle": "Accessible Custom Select Dropdown JS Plugin",
       "description": "Fully-accessible, custom JavaScript select menu plugin. Demo page shows different features and uses. Originally built for a retail brand.",
       "year": "2016",
-      "github": "https://github.com/charliethomason/customA11ySelect"
+      "github": "https://github.com/charliefusion/customA11ySelect"
     },
     {
       "slug": "flexboxnav",
@@ -32,7 +32,7 @@
       "subtitle": "Flexbox Main Navigation with Superhero Parallax Scroll",
       "description": "Main navigation built with flexbox CSS and Bootstrap. Above the nav is a superhero promo with parallax scrolling. Originally built for a retail brand.",
       "year": "2016",
-      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/build/code/work/flexboxnav"
+      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/src/pages/code/work/flexboxnav"
     },
     {
       "slug": "parallaxpromo",
@@ -40,7 +40,7 @@
       "subtitle": "Parallax Promo Page with YouTube API Integration",
       "description": "Single-page product promo with parallax scrolling and YouTube API integration. Originally built with Node, Harp, and Jade for an electronics brand's social media campaign.",
       "year": "2015",
-      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/build/code/work/parallaxpromo"
+      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/src/pages/code/work/parallaxpromo"
     },
     {
       "slug": "accountmanage",
@@ -48,7 +48,7 @@
       "subtitle": "Multi-page Account Management Design Prototype",
       "description": "Static data design prototype for a retirement account management site. Originally built with Handlebars, Grunt, Assemble, and Sass for a financial client.",
       "year": "2014",
-      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/build/code/work/accountmanage"
+      "github": "https://github.com/charliefusion/charliefusion-dev/tree/master/src/pages/code/work/accountmanage"
     },
     {
       "slug": "angularf1-v1",
@@ -56,7 +56,7 @@
       "subtitle": "AngularJS v.1.3 App with Ajax Data",
       "description": "Multi-page Angular app that retrives Formula 1 racing data from the <a href=\"http://ergast.com/mrd\" target=\"_blank\">Ergast API</a>. Has a few bugs and is unfinished.",
       "year": "2014",
-      "github": "https://github.com/charliethomason/angularf1"
+      "github": "https://github.com/charliefusion/angularf1"
     }
   ]
 }

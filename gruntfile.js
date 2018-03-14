@@ -69,7 +69,8 @@
 						port: 9000,
 						base: 'build',
 						hostname: '*',
-						open: true
+						open: true,
+						protocol: 'https'
 					}
 				}
 			},

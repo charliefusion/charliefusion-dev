@@ -57,7 +57,7 @@ charlie.init = function() {
 	}
 	function filters() {
 		var select = document.getElementById('filters');
-		var listEls = document.querySelectorAll('.gallery-grid li');
+		var listEls = document.querySelectorAll('.gallery-grid li, .birds-link');
 		select.addEventListener('change', function(e) {
 			e.preventDefault();
 			var selected = select.options[select.selectedIndex];

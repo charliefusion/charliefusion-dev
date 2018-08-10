@@ -121,16 +121,6 @@
         "gallery": true
       },
       {
-        "imgTitle": "Birds of Chicagoland",
-        "imgFile": "birds",
-        "path": "birds/index",
-        "year": "2014-2016",
-        "medium": "Ink & Watercolor on Paper",
-        "filters": "art birds landscapes water album",
-        "imgCount": "15",
-        "gallery": true
-      },
-      {
         "imgTitle": "Amanda (Pelecanus Venezia)",
         "imgFile": "pelicanvenice",
         "year": "2016",

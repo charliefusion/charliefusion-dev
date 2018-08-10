@@ -132,3 +132,74 @@
 		z-index:3;
 	}
 }
+a.birds-link {
+	@include clearfix;
+  background-color:$eee;
+  border-top: 1px solid #ccc;
+  color:$darkgray;
+  display: block;
+  padding: 7px;
+  img {
+  	float:left;
+    height:auto;
+    max-width:100%;
+    margin:0;
+    width:50%;
+    @include under500 {
+      float:none;
+      width:100%;
+    }
+  }
+  &:hover, 
+  &:focus {
+    background-color:$birdBlue;
+    border-top-color: $birdBlue;
+    text-decoration: none;
+    h2,
+    .subtitle {
+      color:#fff;
+    }
+    h2:after {
+      border-top-color:#fff;
+    }
+  }
+	.info {
+	  float:left;
+	  padding:20px 20px 0;
+	  text-align:center;
+	  width:50%;
+	  @include tablet {
+	    padding:10px 10px 0;
+	  }
+	  @include under500 {
+	    float:none;
+	    padding:10px;
+	    width:auto;
+	  }
+	  h2 {
+	    @include garamond;
+	    font-size:24px;
+	    font-weight:bold;
+	    padding:0 0 5px;
+	    text-transform:uppercase;
+	    @include tablet {
+	      font-size:20px;
+	    }
+	    &:after {
+	      border-top:1px solid #222;
+	      content:'';
+	      display:block;
+	      margin:5px auto 0;
+	      width:30px;
+	    }
+	  }
+	  .subtitle {
+	    @include garamond;
+	    font-size:20px;
+	    font-weight:bold;
+	    @include tablet {
+	      font-size:16px;
+	    }
+	  }
+	}
+}

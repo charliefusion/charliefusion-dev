@@ -1,29 +1,35 @@
 #page-index {
   background-color:transparent;
   padding:0;
-  .btns {
-    @include clearfix;
-    > a {
-      @include sans;
-      background-color:$red;
-      color:#fff;
-      display:block;
-      float:left;
-      font-weight:bold;
-      padding:10px;
-      text-align:center;
-      width:50%;
-      &:first-child {
-        border-right:1px solid #fff;
-      }
-      &:hover {
-        background-color:$green;
-        color:$darkgray;
-        text-decoration:none;
-      }
-      @include mobile {
-        font-size:14px;
-      }
+  .hero {
+    position: relative;
+  }
+  .home-intro {
+    @include sans;
+    background-color:#000;
+    background-color:rgba(0,0,0,0.6);
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    left: 0;
+    padding: 10px 50px;
+    position: absolute;
+    text-align: center;
+    text-shadow:1px 1px 0 #000;
+    @include tablet {
+      font-size: 14px;
+      line-height: 18px;
+      padding: 5px 10px;
+    }
+    @include mobile {
+      position: static;
+      text-shadow:none;
+    }
+    @include under500 {
+      font-size: 12px;
+      line-height: 16px;
     }
   }
 }

@@ -22,9 +22,11 @@
       padding:5px 0;
     }
     &.intro {
-      @include sans;
-      font-weight:bold;
       padding-top:0;
+      strong {
+        @include sans;
+        font-weight: bold;
+      }
     }
   }
   h2 {

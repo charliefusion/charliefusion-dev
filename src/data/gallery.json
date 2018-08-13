@@ -87,14 +87,6 @@
         "filters": "photos landscapes travel"
       },
       {
-        "imgTitle": "2017 Indy 500",
-        "imgFile": "2017indy500",
-        "year": "2017",
-        "month": "May",
-        "medium": "Digital Photography",
-        "filters": "photos auto chicagoland"
-      },
-      {
         "imgTitle": "Rock on the Range Panorama",
         "imgFile": "rotr-pano",
         "year": "2017",
@@ -165,28 +157,12 @@
         "filters": "art birds landscapes water"
       },
       {
-        "imgTitle": "Nascar at Chicagoland Speedway",
-        "imgFile": "nascarchicago-start",
-        "year": "2015",
-        "month": "September",
-        "medium": "Digital Photography",
-        "filters": "photos auto chicagoland landscapes"
-      },
-      {
         "imgTitle": "Blackwater Falls State Park",
         "imgFile": "blackwaterfalls",
         "year": "2015",
         "month": "September",
         "medium": "Digital Photography",
         "filters": "photos landscapes travel"
-      },
-      {
-        "imgTitle": "Penske IndyCar at Mid-Ohio",
-        "imgFile": "montoyaindycar-midohio",
-        "year": "2015",
-        "month": "August",
-        "medium": "Digital Photography",
-        "filters": "photos auto travel"
       },
       {
         "imgTitle": "Emerald Isle, NC: Sunrise",
@@ -341,14 +317,6 @@
         "month": "December",
         "medium": "HDR Digital Photography",
         "filters": "photos chicagoland landscapes"
-      },
-      {
-        "imgTitle": "Schumacher at Italian GP",
-        "imgFile": "schumi-italy",
-        "year": "2010",
-        "month": "September",
-        "medium": "Digital Photography",
-        "filters": "photos auto travel"
       },
       {
         "imgTitle": "Notte a Venezia",

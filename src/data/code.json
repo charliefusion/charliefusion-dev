@@ -11,6 +11,14 @@
       "github": "https://github.com/charliethomason/f1-vuejs-webpack"
     },
     {
+      "slug": "highcharts",
+      "project": "NASCAR Highcharts Donut",
+      "subtitle": "Highcharts Interactive Donut Chart",
+      "description": "Interactive donut chart built with <a href=\"https://www.highcharts.com/\" target=\"_blank\">Highcharts</a> v6.1.1 and jQuery v1.12.4. Displays 2016 NASCAR race wins data; originally displayed mutual fund data for a client.",
+      "year": "2016",
+      "github": "http://github.com/charliethomason/charliefusion-dev/tree/master/src/pages/code/work/highcharts"
+    },
+    {
       "slug": "quiz",
       "project": "Traveler Type",
       "subtitle": "Interactive 7-Step JS Quiz",

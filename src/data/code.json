@@ -1,7 +1,15 @@
 {
   "page-name": "Web Development Portfolio",
-  "intro": "Here is a small sampling of the web development work I've done over the past few years. Due to the confidential nature of some client work, all names, logos, branding, fonts, and images have been changed. In many cases, the parts of the code I worked on have been extracted from their original pages and/or software framework for the purpose of hosting them here. Many of these projects were a collaborative effort with other developers, so in some cases I cannot claim 100% responsibility. If you have questions or concerns about any of the work found here, please <a href=\"/about.html#contact-charlie\">contact me</a>.",
+  "intro": "Here is a small sampling of the web development work I've done over the past few years. Due to the confidential nature of some client work, all names, logos, branding, fonts, and images have been changed. In many cases, the parts of the code I worked on have been extracted from their original pages and/or software framework for the purpose of hosting them here. Many of these projects were a collaborative effort with other developers. If you have questions or concerns about any of the work found here, please <a href=\"/about.html#contact-charlie\">contact me</a>.",
   "works": [
+    {
+      "slug": "d3vue",
+      "project": "D3 Vue.js Donut",
+      "subtitle": "D3.js Interactive Donut Chart Vue.js Component",
+      "description": "Interactive donut chart built with <a href=\"https://d3js.org/\" target=\"_blank\">D3.js</a> v4.13.0 and Vue.js v2.5.13. Displays 2017 NASCAR race wins data; originally built to show industrial asset availability status info.",
+      "year": "2018",
+      "github": "http://github.com/charliethomason/charliefusion-dev/tree/master/src/pages/code/work/d3vue/donut.vue"
+    },
     {
       "slug": "vuef1",
       "project": "F1 Data App",
@@ -12,7 +20,7 @@
     },
     {
       "slug": "highcharts",
-      "project": "NASCAR Highcharts Donut",
+      "project": "Highcharts Donut",
       "subtitle": "Highcharts Interactive Donut Chart",
       "description": "Interactive donut chart built with <a href=\"https://www.highcharts.com/\" target=\"_blank\">Highcharts</a> v6.1.1 and jQuery v1.12.4. Displays 2016 NASCAR race wins data; originally displayed mutual fund data for a client.",
       "year": "2016",

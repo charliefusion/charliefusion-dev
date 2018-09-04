@@ -15,9 +15,9 @@
       },
       {
         "type": "Code",
-        "workTitle": "NASCAR Highcharts Donut",
-        "url": "code/work/highcharts/",
-        "imgSrc": "code/highcharts"
+        "workTitle": "D3 Vue.js Donut",
+        "url": "code/work/d3vue/",
+        "imgSrc": "code/d3vue"
       }
     ]
   }  

@@ -1,0 +1,19 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Rio dei Mendicanti",
+        "imgFile": "riomendicanti",
+        "year": "2018",
+        "month": "12",
+        "medium": "Watercolor on Paper",
+        "description": "Part of a series of watercolor paintings of scenes of Venice, Italy, entitled <em lang=\"it\">L'Acqua di Venezia</em> ('The Water of Venice'). This depicts the Rio dei Mendicanti, Scuola Grande di San Marco, and Campo Santi Giovanni e Paolo. It is meant to be portrayed as in the evening, with cloudy skies."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "art",
+    "id": "riomendicanti"
+  }
+}

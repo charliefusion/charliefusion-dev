@@ -1,5 +1,9 @@
 module.exports.pageNav = function(id) {
   var galleryTitles = [
+    "Rio dei Mendicanti",
+    "Sotoportego",
+    "Chloe Pineapple",
+    "Allanon",
     "A Mexican Vaquero (Study)",
     "Schumacher at Monaco",
     "Emerald Isle, NC: Sunset",
@@ -41,6 +45,10 @@ module.exports.pageNav = function(id) {
     "Vincent Price in His Laboratory"
   ];
   var galleryIds = [
+    "riomendicanti",
+    "sotoportego",
+    "chloepineapple",
+    "allanon",
     "mexicanvaquero",
     "schumi-monaco",
     "ei-sunset",

@@ -1,0 +1,19 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Allanon",
+        "imgFile": "allanon",
+        "year": "2018",
+        "month": "12",
+        "medium": "Ink Brush on Paper",
+        "description": "In 2018, I discovered the literary works of Terry Brooks, specifically his <em>Shannara</em> series. One of the most notable characters of this series is the druid Allanon. I painted this image using black India ink and a small brush, based on <a href=\"http://shannara.wikia.com/wiki/Druid?file=Allanon.jpg\" target=\"_blank\">this illustration by Darrell K. Sweet</a> from <em>The Elfstones of Shannara</em>."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "art",
+    "id": "allanon"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Sotoportego",
+        "imgFile": "sotoportego",
+        "year": "2018",
+        "month": "09",
+        "medium": "Watercolor on Paper",
+        "description": "Part of a series of watercolor paintings of scenes of Venice, Italy, entitled <em lang=\"it\">L'Acqua di Venezia</em> ('The Water of Venice'). Sotoportego is a uniquely Venetian term to describe an alley that passes underneath a building, typically near a bridge. This depicts the Ponte (bridge) dei Fuseri and a passing gondolier."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "art",
+    "id": "sotoportego"
+  }
+}

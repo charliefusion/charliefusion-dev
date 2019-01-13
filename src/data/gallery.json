@@ -57,11 +57,47 @@
       {
         "name": "Undergrad Work",
         "val": "undergrad"
+      },
+      {
+        "name": "Venice",
+        "val": "venice"
       }
     ]
   },
   "grid": {
     "works": [
+      {
+        "imgTitle": "Rio dei Mendicanti",
+        "imgFile": "riomendicanti",
+        "year": "2018",
+        "month": "December",
+        "medium": "Watercolor on Paper",
+        "filters": "art water landscapes travel venice"
+      },
+      {
+        "imgTitle": "Sotoportego",
+        "imgFile": "sotoportego",
+        "year": "2018",
+        "month": "September",
+        "medium": "Watercolor on Paper",
+        "filters": "art water landscapes travel venice"
+      },
+      {
+        "imgTitle": "Chloe Pineapple",
+        "imgFile": "chloepineapple",
+        "year": "2018",
+        "month": "December",
+        "medium": "Watercolor on Paper",
+        "filters": "art water portraits"
+      },
+      {
+        "imgTitle": "Allanon",
+        "imgFile": "allanon",
+        "year": "2018",
+        "month": "December",
+        "medium": "Ink Brush on Paper",
+        "filters": "art water portraits"
+      },
       {
         "imgTitle": "A Mexican Vaquero (Study)",
         "imgFile": "mexicanvaquero",
@@ -118,7 +154,7 @@
         "year": "2016",
         "month":"December",
         "medium": "Ink & Watercolor on Paper",
-        "filters": "art birds landscapes travel water"
+        "filters": "art birds landscapes travel water venice"
       },
       {
         "imgTitle": "Venezia Honeymoon",
@@ -126,7 +162,7 @@
         "path": "gallery/venezia",
         "year": "2016",
         "medium": "Digital Photography",
-        "filters": "photos travel landscapes history album",
+        "filters": "photos travel landscapes history album venice",
         "imgCount": "60",
         "gallery": true
       },
@@ -324,7 +360,7 @@
         "year": "2010",
         "month": "September",
         "medium": "Long-exposure Digital Photography",
-        "filters": "photos travel"
+        "filters": "photos travel venice"
       },
       {
         "imgTitle": "Lugano, Switzerland",

@@ -1,0 +1,19 @@
+{
+  "folder": "grid",
+  "gallery-single": {
+    "works": [
+      {
+        "imgTitle": "Chloe Pineapple",
+        "imgFile": "chloepineapple",
+        "year": "2018",
+        "month": "12",
+        "medium": "Watercolor on Paper",
+        "description": "In February 2018, my wife and I had to say goodbye to our beloved cat, Chloe. I painted this image and gave it to my wife as a Christmas present in December 2018. I wanted to choose a photo for the painting that was sortof funny, rather than sad, which is why I used this one with the pineapple."
+      }
+    ]
+  },
+  "pagenav": {
+    "type": "art",
+    "id": "chloepineapple"
+  }
+}

@@ -19,22 +19,17 @@ charlie.init = function() {
 	}
 	// grid
 	function gridLightbox() {
-		var listEls = document.querySelectorAll('.gallery-grid li');
+		var gridThumbs = document.querySelectorAll('.grid-thumb');
 		var magnifiers = document.querySelectorAll('.magnify');
 		var lightbox = document.getElementById('lightbox-viewer');
 		var lightboxContent = lightbox.querySelector('.lightbox-content');
 		var lightboxImg = lightbox.querySelector('img');
 		var closeBtn = lightbox.querySelector('.lightbox-close');
+		gridThumbs.forEach(function(thumb) {
+			createLightbox(thumb, thumb.querySelector('img'));
+		});
 		magnifiers.forEach(function(btn) {
-			var imgUrl = btn.previousElementSibling.getAttribute('data-img');
-			var imgAlt = btn.previousElementSibling.getAttribute('alt');
-			btn.addEventListener('click', function(e) {
-				e.preventDefault();
-				e.stopPropagation();
-				lightboxImg.setAttribute('src', imgUrl);
-				lightboxImg.setAttribute('alt', imgAlt);
-				lightbox.style.display = '';
-			});
+			createLightbox(btn, btn.previousElementSibling);
 		});
 		closeBtn.addEventListener('click', function(e) {
 			e.preventDefault();
@@ -49,6 +44,17 @@ charlie.init = function() {
 		lightboxImg.addEventListener('click', function(e) {
 			e.stopPropagation();
 		});
+		function createLightbox(el, img) {
+			var imgUrl = img.getAttribute('data-img');
+			var imgAlt = img.getAttribute('alt');
+			el.addEventListener('click', function (e) {
+				e.preventDefault();
+				e.stopPropagation();
+				lightboxImg.setAttribute('src', imgUrl);
+				lightboxImg.setAttribute('alt', imgAlt);
+				lightbox.style.display = '';
+			});
+		}
 		function closeLightbox() {
 			lightboxImg.setAttribute('src', 'javascript:void(0)');
 			lightboxImg.setAttribute('alt', '');

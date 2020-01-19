@@ -4,7 +4,7 @@
       {
         "type": "Art",
         "workTitle": "Rio dei Mendicanti",
-        "url": "gallery/riomendicanti.html",
+        "url": "gallery.html",
         "imgSrc": "grid/thumbs/riomendicanti-250"
       },
       {
@@ -16,7 +16,7 @@
       {
         "type": "Code",
         "workTitle": "D3 Vue.js Donut",
-        "url": "code/work/d3vue/",
+        "url": "https://charliethomason.github.io/code/",
         "imgSrc": "code/d3vue"
       }
     ]

@@ -17,13 +17,22 @@
 	</title>
 	<link rel="icon" href="/img/favicon.ico">
  	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Oswald|Cormorant+Garamond:400,700">
-	<link rel="stylesheet" href="/css/main.css">
+	{{#is modified.class 'birds'}}
+	<link rel="stylesheet" href="../css/main.css">
+	{{else}}
+	<link rel="stylesheet" href="css/main.css">
+	{{/is}}
 </head>
 <body{{#is modified.class 'birds'}} class="birds-wrap"{{/is}}>
 
 	{{> body}}
 
-  <script src="/js/main.js"></script>
+
+	{{#is modified.class 'birds'}}
+	<script src="../js/main.js"></script>
+	{{else}}
+	<script src="js/main.js"></script>
+	{{/is}}
 
 </body>
 </html>

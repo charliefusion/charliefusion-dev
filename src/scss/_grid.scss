@@ -36,7 +36,10 @@
 				color:$offwhite;
 			}
 		}
-		a {
+		.grid-thumb {
+			background: none;
+			border: none;
+			cursor: pointer;
 			display:inline-block;
 			position: relative;
 			text-decoration: none;

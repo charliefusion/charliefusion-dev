@@ -3,22 +3,14 @@
 	<ul>
 		{{#each works}}
 		<li data-filters="{{filters}}">
-			{{#if gallery}}
-			<a href="/{{path}}.html" class="grid-thumb">
-			{{else}}
-			<a href="/gallery/{{imgFile}}.html" class="grid-thumb">
-			{{/if}}
+			<button type="button" class="grid-thumb">
 				<img src="img/grid/thumbs/{{imgFile}}-250.jpg" alt="{{imgTitle}}" data-img="img/grid/{{imgFile}}.jpg">
-				{{#if gallery}}
-				<div class="album-tag">Album</div>
-				{{else}}
-				<button type="button" class="magnify"><img src="img/magnify-icon.png" alt="click to view image full size"></button>
-				{{/if}}
+				<img src="img/magnify-icon.png" alt="click to view image full size" class="magnify" />
 	         	<div class="info">
 	        		<h2 class="title">{{imgTitle}}</h2>
-	            	<p class="meta">{{#if gallery}}{{imgCount}} images{{else}}{{month}}{{/if}} {{year}} <br>{{medium}}</p>
+	            	<p class="meta">{{month}} {{year}} <br>{{medium}}</p>
 	          	</div>
-          	</a>
+          	</button>
 		</li>
 		{{/each}}
 	</ul>

@@ -2,7 +2,7 @@
 <header id="header" role="banner">
 	<div class="headwrap">
 		<div class="logo">
-			<a href="/index.html" title="Charlie Thomason">Charlie Thomason</a>
+			<a href="{{#is ../modified.class 'birds'}}../{{/is}}index.html" title="Charlie Thomason">Charlie Thomason</a>
 		</div>
 		<div class="tagline">Artist &amp; Software Engineer from Chicago</div>
 
@@ -10,19 +10,16 @@
 			<a href="#" id="hamburger"><span> </span>Menu</a>
 			<ul role="menu" data-show="false">
 				<li{{#is ../modified.class 'index'}} class="active"{{/is}}>
-					<a href="/index.html" role="menuitem">Home</a>
+					<a href="{{#is ../modified.class 'birds'}}../{{/is}}index.html" role="menuitem">Home</a>
 				</li>
 				<li{{#is ../modified.class 'about'}} class="active"{{/is}}{{#is ../modified.class 'etc'}} class="active"{{/is}}>
-					<a href="/about.html" role="menuitem">About</a>
+					<a href="{{#is ../modified.class 'birds'}}../{{/is}}about.html" role="menuitem">About</a>
 				</li>
 				<li {{#is ../modified.class 'gallery'}} class="active"{{/is}}
 					{{#is ../modified.class 'birds'}} class="active"{{/is}}
 					{{#is ../modified.class 'single'}} class="active"{{/is}}
 					{{#is ../modified.class 'album'}} class="active"{{/is}}>
-					<a href="/gallery.html" role="menuitem">Gallery</a>
-				</li>
-				<li{{#is ../modified.class 'code'}} class="active"{{/is}}>
-					<a href="/code/" role="menuitem">Code</a>
+					<a href="{{#is ../modified.class 'birds'}}../{{/is}}gallery.html" role="menuitem">Gallery</a>
 				</li>
 			</ul>
 		</nav>

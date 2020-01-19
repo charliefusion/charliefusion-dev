@@ -35,14 +35,8 @@
 				primary: {
 					files: {'build/': ['src/pages/primary/*.hbs']}
 				},
-				gallery: {
-					files: {'build/gallery/': ['src/pages/gallery/*.hbs']}
-				},
 				birds: {
 					files: {'build/birds/': ['src/pages/birds/*.hbs']}
-				},
-				code: {
-					files: {'build/code/' : ['src/pages/code/*.hbs']}
 				}
 			},
 			copy: {
@@ -52,14 +46,6 @@
 						cwd: 'src/img/',
 						src: ['**/*'],
 						dest: 'build/img/'
-					}]
-				},
-				code_work: {
-					files: [{
-						expand: true,
-						cwd: 'src/pages/code/work/',
-						src: ['**/*'],
-						dest: 'build/code/work'
 					}]
 				}
 			},
@@ -90,10 +76,6 @@
 				img: {
 					files: ['src/img/**/*'],
 					tasks: ['copy:img_build']
-				},
-				code_work: {
-					files: ['src/pages/code/work/**/*'],
-					tasks: ['copy:code_work']
 				}
 			}
 		});
